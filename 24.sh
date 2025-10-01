@@ -35,6 +35,8 @@ npm -v
 
 echo "[*] Install Playwright..."
 npm install -g playwright
+npm init -y          # kalau belum ada package.json
+npm install playwright
 
 echo "[*] Download browser Playwright..."
 npx playwright install --with-deps
