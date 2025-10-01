@@ -7,18 +7,18 @@ sudo apt-get upgrade -y
 
 echo "[*] Install dependency dasar..."
 sudo apt-get install -y wget curl unzip git \
-  libatk1.0-0 \
-  libatk-bridge2.0-0 \
-  libcups2 \
+  libatk1.0-0t64 \
+  libatk-bridge2.0-0t64 \
+  libcups2t64 \
   libxkbcommon0 \
-  libatspi2.0-0 \
+  libatspi2.0-0t64 \
   libxdamage1 \
   libxcomposite1 \
   libxrandr2 \
   libgbm1 \
-  libgtk-3-0 \
+  libgtk-3-0t64 \
   libpango-1.0-0 \
-  libasound2 \
+  libasound2t64 \
   libnss3 \
   libxshmfence1 \
   libdrm2 \
